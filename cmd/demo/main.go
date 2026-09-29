@@ -41,7 +41,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/niudunpay/niudun-pay-sdk-go/niudun"
+	"gitee.com/qyyapp/niudun-pay-go/niudun"
 )
 
 // maxCallbacks 回调记录保留上限（超出丢弃最老记录）

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/niudunpay/niudun-pay-sdk-go/niudun"
+	"gitee.com/qyyapp/niudun-pay-go/niudun"
 )
 
 func main() {
