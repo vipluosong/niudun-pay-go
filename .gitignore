@@ -1,0 +1,17 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+# OS
+.DS_Store
+Thumbs.db
