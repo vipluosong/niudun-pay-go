@@ -16,7 +16,7 @@ import (
 
 const defaultTimeout = 30 * time.Second
 
-// Client 牛盾支付 SDK 客户端 — 对照 sdk-contract.md 第十节
+// Client 牛盾聚合支付 SDK 客户端 — 对照 sdk-contract.md 第十节
 type Client struct {
 	config     Config
 	httpClient *http.Client

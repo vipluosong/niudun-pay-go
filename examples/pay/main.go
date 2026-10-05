@@ -1,4 +1,4 @@
-// 牛盾支付 支付下单示例 — Go
+// 牛盾聚合支付下单示例 — Go
 // 运行：go run examples/pay/main.go（需先启动后端 niudun-start，端口 9999）
 package main
 

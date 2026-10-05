@@ -1,4 +1,4 @@
-// 牛盾支付 Go SDK 联调 Demo 服务
+// 牛盾聚合支付 Go SDK 联调 Demo 服务
 //
 // 单命令启动的本地联调工具，所有交易调用都经 niudun.Client 走 SDK 真实调用链（签名/请求/验签），
 // 同时验证 SDK 与平台 unipay 接口两侧：
@@ -207,7 +207,7 @@ func main() {
 	}
 	cfg := srv.snapshot()
 
-	fmt.Println("牛盾支付 Go SDK 联调 Demo 已启动")
+	fmt.Println("牛盾聚合支付 Go SDK 联调 Demo 已启动")
 	fmt.Printf("  调试页面 : http://127.0.0.1:%d\n", *port)
 	fmt.Printf("  平台地址 : %s  (商户 %s)\n", cfg.ServiceUrl, dashIfEmpty(cfg.MchNo))
 	fmt.Printf("  密钥状态 : 商户私钥 %s / 平台公钥 %s  (可在页面「连接配置」中随时修改)\n", keyState(cfg.PrivateKey), keyState(cfg.PublicKey))
