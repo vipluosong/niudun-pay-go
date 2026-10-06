@@ -4,7 +4,7 @@ import "time"
 
 // Config SDK 配置 — 对照 sdk-contract.md 第十节
 type Config struct {
-	// ServiceUrl 网关地址（自动去尾斜杠），如 https://sandbox.niudunpay.cn
+	// ServiceUrl 网关地址（自动去尾斜杠），如 https://ndpay-api.qyyapp.com
 	ServiceUrl string
 	// MchNo 商户号
 	MchNo string
