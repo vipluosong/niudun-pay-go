@@ -19,8 +19,14 @@
 
 ## 安装（源码引入）
 
+本 SDK 同时发布在 Gitee（主仓）与 GitHub（镜像）。Go 模块路径以 Gitee 为准（`gitee.com/qyyapp/niudun-pay-go`）：
+
 ```bash
+# Gitee（推荐）
 go get gitee.com/qyyapp/niudun-pay-go@main
+
+# GitHub 镜像：模块路径仍为 gitee.com/qyyapp/niudun-pay-go，需用 replace 指向
+go mod edit -replace gitee.com/qyyapp/niudun-pay-go=github.com/vipluosong/niudun-pay-go@main
 ```
 
 ```go
