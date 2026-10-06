@@ -37,7 +37,7 @@ import "gitee.com/qyyapp/niudun-pay-go/niudun"
 
 ```go
 config := niudun.Config{
-    ServiceUrl: "https://ndpay-api.qyyapp.com",
+    ServiceUrl: "https://api.niudunpay.com",
     MchNo:      "M200000001",
     AppId:      "APP001",
     PrivateKey: merchantPrivateKeyPem,   // PEM 文本
